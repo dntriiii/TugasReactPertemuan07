@@ -1,0 +1,109 @@
+/* .app-background {
+  background-color: #f8f9fa;
+} */
+
+body {
+  background: linear-gradient(to right, #9e7d98, #d59bc5);
+  font-family: 'Arial', sans-serif;
+  color: #2d3436;
+  transition: background 0.3s ease;
+}
+.add-task-btn {
+  background-color: #7c3aed !important;
+  color: white !important;
+  border: none !important;
+  padding: 8px 16px !important;
+  border-radius: 20px !important;
+  font-size: 14px !important;
+}
+
+.task-card {
+  background: white;
+  border: none !important;
+  border-radius: 16px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.task-label, .priority-label {
+  color: #6b7280;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.task-name {
+  color: #111827;
+  font-weight: 500;
+}
+
+.priority-value {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: #f3f4f6;
+}
+
+.status-badge.to-do {
+  background-color: #f07987;
+  color: #8e95a3;
+}
+
+.status-badge.in-progress {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.status-badge.done {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #e5e7eb;
+}
+
+.status-circle.done {
+  background-color: #7c3aed;
+  border-color: #7c3aed;
+}
+
+.status-circle.in-progress {
+  background: conic-gradient(#7c3aed 50%, transparent 50%);
+  border-color: #7c3aed;
+}
+
+.btn-icon {
+  padding: 8px !important;
+  border-radius: 8px !important;
+  color: #6b7280 !important;
+  background-color: #f3f4f6 !important;
+  border: none !important;
+}
+
+.btn-icon:hover {
+  background-color: #404de6 !important;
+}
+
+.modal-content {
+  border-radius: 16px !important;
+  border: none !important;
+}
+
+.form-control, .form-select {
+  border-color: #ef8e2c !important;
+  padding: 10px 16px !important;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #7c3aed !important;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1) !important;
+}
+
